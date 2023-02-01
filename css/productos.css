@@ -1,0 +1,33 @@
+#cards{
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill,minmax(15rem,1px));
+}
+
+#mainProductos{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card{
+    height: auto;
+    border: 1px black solid;
+}
+
+.agregarCarro{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-img-top{
+    height: 250px ;
+}
+
+#logoCarro{
+    z-index: 1001;
+}

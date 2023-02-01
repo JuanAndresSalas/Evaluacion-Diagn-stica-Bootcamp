@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion Diagnostica</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/productos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/html/ventas.html">Productos</a>
+                  </li>  
+                  <li class="nav-item">
+                    <a id="logoCarro" class="nav-link active" aria-current="page"><img src="/img/carro.png" alt="" style="height: 30px; width: 30px;" ></a>
+                  </li>                
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+          <div id="carroCompra">
+            <table id="listaProductos">     
+            </table>
+          </div>
+    </header>
+    <h3 class="p-3">Productos</h3>
+    <main id="mainProductos" class="mt-5">
+        <div id="cards"></div>
+    </main>
+    
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/js/cards.js"></script>
+    <script src="/js/carro.js"></script>
+</body>
+</html>
+
